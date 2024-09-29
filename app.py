@@ -28,7 +28,7 @@ iface = gr.Interface(
     outputs="text",  # output type
     title="Romanized English to Nepali Transliterator",
     description="Translate Romanized English text into Nepali.",
-    examples=[["ahile", "prakriti"]]
+    examples=[["ahile"],["prakriti"]]
 )
 
 # Launch the Gradio app
